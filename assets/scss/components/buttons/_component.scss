@@ -1,0 +1,77 @@
+.btn{
+    cursor: pointer;
+    border: none;
+    display: inline;
+    outline: none; 
+    border-radius: 7px;
+    padding: $btn-padding;
+    width: $btn-width;
+    font-family: $btn-font-family ;
+    font-size: $btn-font-size;
+    &.btn-primary{
+        background-color: $btn-primary-bg-color;
+        color:$btn-primary-color;
+        &:hover{
+        background-color: darken($btn-primary-bg-color,20);
+        }
+    }
+    &.btn-secondary{
+        background-color: $btn-secondary-bg-color;
+        color:$btn-secondary-color;
+        &:hover{
+        background-color: darken($btn-secondary-bg-color,10);
+        }
+    }
+    &.btn-success{
+        background-color: $btn-success-bg-color;
+        color:$btn-success-color;
+        &:hover{
+        background-color: darken($btn-success-bg-color,10);
+        }
+    }
+    &.btn-danger{
+        background-color: $btn-danger-bg-color;
+        color:$btn-danger-color;
+        &:hover{
+        background-color: darken($btn-danger-bg-color,10);
+        }
+    }
+    &.btn-warning{
+        background-color: $btn-warning-bg-color;
+        color:$btn-warning-color;
+        &:hover{
+        background-color: darken($btn-warning-bg-color,10);
+        }
+    }
+    &.btn-info{
+        background-color: $btn-info-bg-color;
+        color:$btn-info-color;
+        &:hover{
+        background-color: darken($btn-info-bg-color,10);
+    }
+    }
+    &.btn-dark{
+        background-color: $btn-dark-bg-color;
+        color:$btn-dark-color;
+        &:hover{
+        background-color: lighten($btn-dark-bg-color,30);
+        }
+    }
+    &.btn-light{
+        background-color: $btn-light-bg-color;
+        color:$btn-light-color;
+        &:hover{
+        background-color: darken($btn-light-bg-color,10);
+        }
+    }
+    &.btn-link{
+        background-color: $btn-link-bg-color;
+        color:$btn-link-color;
+        &:hover{
+        background-color: darken($btn-link-bg-color,10);
+        }
+    }
+    
+    
+    
+}

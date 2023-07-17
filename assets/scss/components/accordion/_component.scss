@@ -1,0 +1,32 @@
+
+.accordion{
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 870px;
+    .accordion-item{
+    .accordion-header{
+        background-color: $accordion-header-bg;
+        border: $accordion-header-border;
+        font-size: $accordion-header-font-size;
+        color: $accordion-header-color;
+        padding:$accordion-header-padding ;
+        border-radius:$accordion-header-radius;
+    }
+
+    .accordion-body{
+        color:$accordion-body-color ;
+        background-color: $accordion-body-bg;
+        border: $accordion-body-color;
+        padding: $accordion-body-padding ;
+        line-height:$accordion-line-height ;
+        border-left:  $accordion-body-border;
+        border-right:  $accordion-body-border;
+        &:last-child{
+            border-bottom: $accordion-body-border;;
+        }
+ 
+    }
+}
+}
+    
