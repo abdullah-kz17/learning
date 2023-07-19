@@ -204,4 +204,83 @@
 }
 .btn.btn-link:hover {
   background-color: #e6e6e6;
+}
+
+body {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Modal {
+  width: 450px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 7px;
+}
+.Modal .Modal-header {
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Modal .Modal-header .Close {
+  float: right;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.Modal .Modal-body p {
+  padding: 16px;
+  border-bottom: 1px solid grey;
+}
+.Modal .Modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0px;
+}
+.Modal .Modal-footer .btn-1 {
+  margin-right: 10px;
+  padding: 11px 15px;
+  background-color: grey;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Modal .Modal-footer .btn-1:hover {
+  background-color: #6e6e6e;
+}
+.Modal .Modal-footer .btn-2 {
+  margin-right: 10px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 11px 15px;
+  cursor: pointer;
+}
+.Modal .Modal-footer .btn-2:hover {
+  background-color: #0000db;
+}
+
+body {
+  background-color: white;
+}
+
+.list-group {
+  width: 400px;
+  height: 200px;
+  border: 1px solid grey;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-group .list-group-item {
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+.list-group .list-group-item:last-child {
+  border-bottom: none;
 }/*# sourceMappingURL=style.css.map */

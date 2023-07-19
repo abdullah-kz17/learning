@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+.list-group{
+    width: 400px;
+    height: 200px;
+    border: 1px solid $list-group-border-color;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    .list-group-item{
+        padding: $list-group-item-padding;
+        list-style: none;
+        border-bottom: 1px solid grey;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
